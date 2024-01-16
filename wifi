@@ -1,0 +1,22 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug enx924098e458bf
+iface enx924098e458bf inet dhcp
+# This is an autoconfigured IPv6 interface
+iface enx924098e458bf inet6 auto
+#my wifi device
+allow-hotplug wlp0s20f3
+iface wlp0s20f3 inet dhcp
+	wpa-ssid pixel
+	wpa-psk RBC123456789
+
+#this is a sample wifi to be put in the location /etc/network/interface
+# ifup <devname>

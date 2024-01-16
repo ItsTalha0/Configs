@@ -13,3 +13,4 @@ nmap <F4> :bel term<CR>
 nmap <C-n> :tabn<CR>
 map <F5> <C-w>n<C-w>H
 colorscheme slate
+

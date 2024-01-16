@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ $1 eq 1 ]
+then
+	echo "works"
+fi
+xrandr --output eDP-1 --brightness 0.5
+xgamma -gamma 0.5
+

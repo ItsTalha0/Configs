@@ -1,0 +1,2 @@
+xrandr --output eDP-1 --brightness 0.8
+xgamma -gamma 0.6

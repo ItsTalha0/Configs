@@ -1,0 +1,18 @@
+#!/bin/bash
+
+inpt=$1;
+
+if (test -z "$inpt")
+then
+	echo "bad input"
+else
+	if (($1>=4 && $1<=9))
+	then
+		xrandr --output eDP-1 --brightness 0.$1;
+	else
+		echo "invalid range,range is in 0.4 to 0.9";
+	fi
+fi
+
+	
+
