@@ -1,0 +1,7 @@
+fg_color = black
+bg_color = grey
+cursor_fg_color=black
+cursor_bg_color=pink
+colors=true
+fontsize = 24
+
