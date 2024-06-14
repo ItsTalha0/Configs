@@ -1,0 +1,2 @@
+#! /bin/bash
+xwd  | xwdtopnm | pnmtopng > $(date -Iseconds).png
